@@ -7,58 +7,71 @@ body{
     margin-top: 0;     
     font-family: "Roboto Condensed", sans-serif;
 }
-#containers{  
+
+#root{  
     width: 882px;
     margin-left: auto;
     margin-right: auto;
     position:relative;
 }
-.cont01{
+
+.container01{
     background-color: #404040;
     height: 90px;
 }
-.cont02{
+
+.c01box-a{
+    background-color: unset;
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 28px;
+    top: 15px;
+    
+}
+
+.cont01txt01{
+    color: #f9f9f9;
+    font-weight: 300;
+    font-size: 54px;
+    margin: 0px;
+    position: relative;
+
+}
+
+.c01box-b{
+    position: absolute;
+    left: 30px;
+    top: 68px;
+}
+
+.cont01txt02{
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.container02{
     height: 45px;
     background-color: #404040;
     margin-top: 1px;
     margin-bottom: 1px;
 }
-.img01{   
-    max-width: 100%;
-}
-.boxIMG img{
-    height: 400px;
-    position: absolute;
-    left: 349px;
-}
-/* Posição em relação ao <div> containers */
-.txt01{
-    color: #f9f9f9;
-    background: unset;
-    position: absolute;
-    font-weight: 300;
-    font-size: 54px;
-    top: 10px;
-    left: 25px;
-}
-.txt02{
-    color: #f9f9f9;
+
+.c02box-a{
     position: absolute;
     left: 28px;
-    top: 68px;
-    font-size: 12px;
-    font-weight: 300;
+    top: 92px;
+    margin: 0px;    
 }
-.titulo{
+
+.cont02txt01{
     font-size: 34px;
-    position: absolute;
-    left: 25px;
     color: #ffe500;
     font-weight: 300;
-    top: 92px;
-    margin: 0px;
     font-family: "Roboto", sans-serif;
 }
+
 h1{
     font-size: 24px;
     position: absolute;
@@ -69,13 +82,24 @@ h1{
     margin: 0px;
     font-weight: 300;
 }
-.boxTXT{
+
+.boxIMG img{
+    height: 400px;
+    position: absolute;
+    left: 349px;
+}
+
+.img01{   
+    max-width: 100%;
+}
+
+.boxIMGtxt{
     height: 400px;
     width: 348px;
     background-color: #d1d4d9;
     margin-top: 1px;
-
 }
+
 h2{
     font-size: 16px;
     position: absolute;
@@ -86,6 +110,7 @@ h2{
     margin: 0px;
     font-weight: 400;
 }
+
 p{
     font-size: 12px;
     position: absolute;
@@ -95,6 +120,7 @@ p{
     margin-right: 560px;
     text-align: justify;
 }
+
 .boxbot{
     background-color: #f9f9f9;
     height: 20px;
@@ -107,28 +133,38 @@ p{
     padding: 0 16px;
     margin: 0;
 }
-.bottxtArea{
+
+.boxbottxt{
     color: #404040;
     position: absolute;
-    left: 252px;
-    top: 483px;
+    top: 3px;
+    left: 12px;
     font-size: 12px;
     cursor: pointer;
     text-decoration: none;
-
-
-
-
 }
-.info{
-    color: #404040;
+
+.boxinfo{
     position: absolute;
     font-size: 12px;
     left: 28px;
     top: 482px;
 }
-.boxDown{
+
+.boxinfo-txt{
+    color: #404040;
+    font-size: 12px;
+}
+
+.container03{
     background: #404040;
     height: 25px;
     margin-top: 1px;
+    position: relative;
+}
+
+.c03box-a{
+    position: absolute;
+    top: 2px;
+    left: 370px;
 }

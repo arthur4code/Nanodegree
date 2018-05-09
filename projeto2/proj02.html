@@ -1,35 +1,49 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
-<!--Atentar-se para a tag HEAD, pense que ela chama os comandos CSS e as configurações
-	antes de dar corpo ao documento-->
+<!--Revisao e aprimoramento do projeto 08/05/2018-->
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
 		<link href="proj02.css" rel="stylesheet">
 		<meta charset="UTF-8">
 		<title>PROJ.02 Udacity</title>
 	</head>	
 		<body>			
-			<div id="containers">
-				<div class="cont01"></div>
-					<div class="txt01">02</div>
-					<div class="txt02">PROJETO    - html + css</div>
-				<div class="cont02"></div>
-					<div class="titulo">+</div>
+			<div id="root">
+				<div class="container01">
+					<div class="c01box-a">
+						<span class="cont01txt01">02</span>
+					</div>					
+					<div class="c01box-b">
+						<span class="cont01txt02">PROJETO - html + css</span>
+					</div>
+				</div>											
+				<div class="container02">
+					<div class="c02box-a">
+						<span class="cont02txt01">+</span>
+					</div>						
 					<h1>DESERTO DO ATACAMA - 12 | 2016</h1>
+				</div>										
 				<div class="boxIMG"><img class="img01" src="https://motoxplorerbrasil.files.wordpress.com/2017/02/wp-image-1439340655jpg.jpg?w=1024" alt="Imagem de Arthur ao lado de sua motocicleta, no deserto do Atacama, Chile."></div>
-				<div class="boxTXT"></div>
-					<h2>O PILOTO</h2>
-					<p>Me chamo Arthur do Vale Medeiros, 33 anos, bancário e fascinado por motociclismo desde sempre. Tive minha primeira moto aos 17, e desde então a paixão por duas rodas vem aumentando a cada dia. Hoje casado, pai de dois filhos, e mais irresponsável, resolvi trilhar meus sonhos de motociclista e ir direto ao ponto, percorrer os caminhos até o deserto do Atacama. 
+				<div class="boxIMGtxt"></div>
+				<h2>O PILOTO</h2>
+				<p>Me chamo Arthur do Vale Medeiros, 33 anos, bancário e fascinado por motociclismo desde sempre. Tive minha primeira moto aos 17, e desde então a paixão por duas rodas vem aumentando a cada dia. Hoje casado, pai de dois filhos, e mais irresponsável, resolvi trilhar meus sonhos de motociclista e ir direto ao ponto, percorrer os caminhos até o deserto do Atacama. 
 						A viagem será solo, não por falta de companheiros, mas simplesmente porque decidi assim, e como diz o ditado, – antes sólo que mal acompanhado, certo?						
 						O perigo existe, indo só ou não, e pra falar a verdade pra mim nada nesse mundo paga a liberdade… Liberdade de seguir ou decidir ficar sem ter de dar explicações, de ser estritamente fiel ao meu ritmo, ao meu momento…						
 						Essa será com certeza a primeira das grandes viagens que pretendo realizar daqui pra frente, e será relatada, do início ao fim, incluindo  também dados técnicos ajudando a quem estiver afim de rodar por aqueles lados…					
 						Abraços e bons ventos!!!</p>
-				<div class="boxbot"></div>
-					<a class="bottxtArea" href="https://motoxplorerbrasil.wordpress.com/">Check +</a>
-				<div class="info">Para saber sobre a viajem clique ao lado</div>
-				<div class="boxDown"></div>
+				<div class="boxbot">
+					<a class="boxbottxt" href="https://motoxplorerbrasil.wordpress.com/">Check +</a>
+				</div>					
+				<div class="boxinfo">
+					<span class="boxinfo-txt">Para saber sobre a viajem clique ao lado</span>
+				</div>					
+				<div class="container03">
+					<div class="c03box-a">
+<!-- Usando a mesma class em mais de um elemento de HTML-->							
+						<span class="cont01txt02">All rights reserved © 2018</span>
+					</div>
+				</div>
 			</div>
 	</body>
 </html>
